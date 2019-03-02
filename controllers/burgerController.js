@@ -11,23 +11,20 @@ var router = express.Router();
 // Requiring our models
 var burger = require("../models/burger.js");
 
-// Routes
-// GET route for getting all of the burgers
+// Create all our routes and set up logic within those routes where required
 router.get("/", function(req, res) {
   burger.all(function(data) {
     var hbsObject = {
       burgers: data
     };
     console.log(hbsObject);
-    res.render("burger", hbsObject);
+    res.render("index", hbsObject);
   });
 });
 
-// POST route for saving a new burget
 router.post("/api/burgers", function(req, res) {
-  burger.create([
-    "burger_name", "devoured"
-  ], [
+  burger.create(["burger_name", "devoured"], 
+  [
     req.body.burger_name, req.body.devoured
   ], function(result) {
     // Send back the ID of the new quote
