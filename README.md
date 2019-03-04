@@ -162,7 +162,7 @@ All the recommended files and directories from the steps above should look like 
 │   └── orm.js
 │ 
 ├── controllers
-│   └── burgers_controller.js
+│   └── burgercontroller.js
 │
 ├── db
 │   ├── schema.sql
@@ -178,9 +178,9 @@ All the recommended files and directories from the steps above should look like 
 ├── public
 │   └── assets
 │       ├── css
-│       │   └── burger_style.css
+│       │   └── style.css
 │       └── img
-│           └── burger.png
+│           └── burger.jpg
 │   
 │
 ├── server.js
