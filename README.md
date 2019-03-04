@@ -84,6 +84,8 @@ $ more .env
    * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
 
    * Close out of the MySQL command line tool: `exit`.
+   
+6. In order to deploy this project on Heroku, you will need to create this database on JawsDB as well: https://dashboard.jawsdb.com/mysql/ 
 
 #### Config Setup
 
