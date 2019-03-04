@@ -29,7 +29,7 @@ function objToSql(ob) {
       if (typeof value === "string" && value.indexOf(" ") >= 0) {
         value = "'" + value + "'";
       }
-      // e.g. {name: 'Double Cheeseburger'} => ["name='Double Cheeseburger'"]
+      // e.g. {name: 'Lana Del Grey'} => ["name='Lana Del Grey'"]
       // e.g. {devour: true} => ["devour=true"]
       arr.push(key + "=" + value);
     }
