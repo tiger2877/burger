@@ -85,7 +85,8 @@ $ more .env
 
    * Close out of the MySQL command line tool: `exit`.
    
-6. In order to deploy this project on Heroku, you will need to create this database on JawsDB as well: https://dashboard.jawsdb.com/mysql/ 
+6. In order to deploy this project on Heroku, you will need to create this database in JawsDB as well. 
+You need to make sure to use your host, username and password from https://dashboard.jawsdb.com/mysql/ 
 
 #### Config Setup
 
