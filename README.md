@@ -12,11 +12,10 @@ In this project, you'll see a burger logger with MySQL, Node, Express, Handlebar
 
 * This app will store every burger in a database, whether devoured or not.
 
-* [Check out this video of the app for a run-through of how it works](https://youtu.be/msvdn95x9OM).
+[View on Heroku](https://blooming-lowlands-38275.herokuapp.com/)
 
 ### Prerequisites
 
-NPM packages used for this project:
 
 NPM packages used for this project:
 
@@ -26,6 +25,16 @@ NPM packages used for this project:
 | express-handelebars | https://www.npmjs.com/package/express-handlebars|
 | mysql | https://www.npmjs.com/package/mysql|
 
+* In addition, you need to add this add-on to your heroku:
+     * **JawsDB MySQL
+
+```
+$ heroku addons:create jawsdb
+$ heroku config:get JAWSDB_URL
+$ heroku config -s | grep JAWSDB_URL >> .env
+$ more .env
+```
+[View on HerokuDevCenter](https://https://devcenter.heroku.com/articles/jawsdb#provisioning-the-add-on)
 - - -
 
 ## Instructions
