@@ -34,7 +34,7 @@ $ heroku config:get JAWSDB_URL
 $ heroku config -s | grep JAWSDB_URL >> .env
 $ more .env
 ```
-[View on HerokuDevCenter](https://https://devcenter.heroku.com/articles/jawsdb#provisioning-the-add-on)
+[View on HerokuDevCenter](https://devcenter.heroku.com/articles/jawsdb)
 - - -
 
 ## Instructions
