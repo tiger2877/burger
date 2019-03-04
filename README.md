@@ -26,7 +26,7 @@ NPM packages used for this project:
 | mysql | https://www.npmjs.com/package/mysql|
 
 * In addition, you need to add this add-on to your heroku:
-     * **JawsDB MySQL
+     * JawsDB MySQL
 
 ```
 $ heroku addons:create jawsdb
